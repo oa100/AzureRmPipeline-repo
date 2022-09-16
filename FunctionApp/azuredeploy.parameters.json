@@ -9,10 +9,10 @@
       "value": "Standard_LRS"
     },
     "location": {
-      "value": "[resourceGroup().location]"
+      "value": "centralus"
     },
     "appInsightsLocation": {
-      "value": "Central US"
+      "value": "centralus"
     },
     "runtime": {
       "value": "node"
