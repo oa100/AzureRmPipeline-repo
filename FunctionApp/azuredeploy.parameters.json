@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "appName": {
-      "value": "[format('fnapp{0}', uniqueString(resourceGroup().id))]"
+      "value": "yemistest01akl"
     },
     "storageAccountType": {
       "value": "Standard_LRS"
