@@ -1,27 +1,21 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-      "subscriptionId": {
-        "value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+      "appName": {
+          "value": "fnappxcy7zkz5q6q4w"
       },
-      "name": {
-        "value": "function-app-01"
+      "storageAccountType": {
+          "value": "Standard_LRS"
       },
       "location": {
-        "value": "Central US"
+          "value": "Central US"
       },
-      "hostingPlanName": {
-        "value": "WebApplication2720191003010920Plan"
+      "appInsightsLocation": {
+          "value": "Central US"
       },
-      "serverFarmResourceGroup": {
-        "value": "Testwebapp01"
-      },
-      "alwaysOn": {
-        "value": true
-      },
-      "storageAccountName": {
-        "value": "storageaccountest93"
+      "runtime": {
+          "value": "node"
       }
-    }
   }
+}
