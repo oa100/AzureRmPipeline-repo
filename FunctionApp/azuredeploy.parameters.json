@@ -11,9 +11,6 @@
       "location": {
           "value": "Central US"
       },
-      "appInsightsLocation": {
-          "value": "Central US"
-      },
       "functionWorkerRuntime": {
           "value": "node"
       },
