@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "subscriptionId": {
+        "value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+      },
+      "name": {
+        "value": "function-app-01"
+      },
+      "location": {
+        "value": "Central US"
+      },
+      "hostingPlanName": {
+        "value": "WebApplication2720191003010920Plan"
+      },
+      "serverFarmResourceGroup": {
+        "value": "Testwebapp01"
+      },
+      "alwaysOn": {
+        "value": true
+      },
+      "storageAccountName": {
+        "value": "storageaccountest93"
+      }
+    }
+  }
