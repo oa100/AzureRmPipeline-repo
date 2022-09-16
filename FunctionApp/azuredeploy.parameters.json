@@ -13,9 +13,6 @@
       },
       "functionWorkerRuntime": {
           "value": "node"
-      },
-      "packageUri": {
-        "value": "https://aka.ms/arm-deploy/#parameter-file"
-    }
+      }
   }
 }
