@@ -78,14 +78,10 @@
       "name": "[variables('hostingPlanName')]",
       "location": "[parameters('location')]",
       "sku": {
-        "name": "EP1",
-        "tier": "ElasticPremium",
-        "family": "EP"
+        "name": "Y1",
+        "tier": "Dynamic"
       },
-      "kind": "elastic",
-      "properties": {
-        "maximumElasticWorkerCount": 20
-      }
+      "properties": {}
     },
     {
       "type": "Microsoft.Web/sites",
